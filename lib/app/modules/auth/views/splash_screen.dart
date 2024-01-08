@@ -12,7 +12,7 @@ class SplashScreen extends StatelessWidget {
         body: Center(
       child: GestureDetector(
         onTap: () {
-          context.push(MyNamedRoutes.register);
+          context.pushNamed(MyNamedRoutes.register);
         },
         child: Container(
             color: Color.fromARGB(255, 87, 205, 138),

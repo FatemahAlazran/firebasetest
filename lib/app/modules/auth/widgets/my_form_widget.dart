@@ -49,7 +49,7 @@ class _MyFormFieldsState extends State<MyFormFields> {
                     .next, //to go to the next text field when press enter or done button
                 labeltext: context.translate
                     .email, //run when add to the translate file and will go the error
-                prefixIcon: Icon(Icons.email),
+                prefixIcon: const Icon(Icons.email),
                 obscureText: false,
                 onChanged: null,
                 validator: (value) {

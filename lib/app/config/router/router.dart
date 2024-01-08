@@ -29,7 +29,8 @@ abstract class AppRouter {
       ),
       GoRoute(
         parentNavigatorKey: rootNavigatorKey,
-        path: MyNamedRoutes.register,
+        path: "/${MyNamedRoutes.register}",
+        name: MyNamedRoutes.register,
         pageBuilder: (context, state) => NoTransitionPage(
           key: state.pageKey,
           child: Register(),
