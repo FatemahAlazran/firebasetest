@@ -5,6 +5,7 @@ abstract class MyNamedRoutes {
   static const chatDetails = 'chatDetails';
   static const profile = 'profile';
   static const editProfile = 'editProfile';
+  static const register = '/register';
 }
 //to call it
 //GoRouter.of(context).push()

@@ -1,4 +1,7 @@
 {
     "login":"دخول",
-    "register":"تسجيل الدخول"
+    "register":"تسجيل الدخول",
+    "email" : "",
+    "userName" : "",
+    "password" : ""
 }

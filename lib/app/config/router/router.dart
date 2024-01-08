@@ -1,5 +1,6 @@
 import 'package:firebasetest/app/config/router/my_named_route.dart';
 import 'package:firebasetest/app/modules/auth/views/login.dart';
+import 'package:firebasetest/app/modules/auth/views/register.dart';
 import 'package:firebasetest/app/modules/auth/views/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -24,6 +25,14 @@ abstract class AppRouter {
         pageBuilder: (context, state) => NoTransitionPage(
           key: state.pageKey,
           child: const SplashScreen(),
+        ),
+      ),
+      GoRoute(
+        parentNavigatorKey: rootNavigatorKey,
+        path: MyNamedRoutes.register,
+        pageBuilder: (context, state) => NoTransitionPage(
+          key: state.pageKey,
+          child: Register(),
         ),
       ),
       GoRoute(
