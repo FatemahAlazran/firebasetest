@@ -3,5 +3,7 @@
     "register":"Register",
     "email" : "Email",
     "userName" : "UserName",
-    "password" : "Password"
+    "password" : "Password",
+    "googlesignin" : "Googlesignin"
+
 }

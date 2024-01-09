@@ -3,5 +3,6 @@
     "register":"تسجيل الدخول",
     "email" : "",
     "userName" : "",
-    "password" : ""
+    "password" : "",
+    "googlesignin" : "Googlesignin"
 }
